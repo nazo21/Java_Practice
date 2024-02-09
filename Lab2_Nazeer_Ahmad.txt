@@ -1,0 +1,32 @@
+
+// Will take two inputs, 100 each month and annual rate 
+//Nazeer Ahmad Student_ID: 2890076
+// scanner and then will out put 
+// Formula = In * (1+(Interst/12))
+import java.util.Scanner;
+public class Lab2_Nazeer_Ahmad {
+  public static void main(String[] args) {
+      Scanner myInput = new Scanner(System.in);
+      
+      System.out.println("How much do you want to invest each month?");
+      double money_invested = myInput.nextDouble();
+      
+      System.out.println("What is your annual interest rate (percentage)?");
+      double interest_rate = myInput.nextDouble();
+      
+      double month_rate = interest_rate/100/12;
+      double result = 0; // stores formula here
+      //System.out.println(month_rate);
+      
+      
+      // for loop less than eq to months
+      for(int i = 1; i < 7; i++){
+          result = (money_invested+result) * (1+month_rate);
+          if(i == 1){
+          System.out.println("After "+ i + " month, you will have " + result);
+          }else if(i !=1)
+          System.out.println("After "+ i + " months, you will have " + result);
+      } 
+  }
+  
+}
