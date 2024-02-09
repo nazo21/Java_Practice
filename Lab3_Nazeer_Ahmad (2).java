@@ -1,4 +1,4 @@
-//Nazeer Ahmad  2890076
+//Nazeer Ahmad  
 // Read Three vertices x and y 
 import java.util.Scanner;
 import java.lang.Math;
