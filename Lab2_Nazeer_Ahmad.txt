@@ -1,6 +1,6 @@
 
 // Will take two inputs, 100 each month and annual rate 
-//Nazeer Ahmad Student_ID: 2890076
+//Nazeer Ahmad Student_ID: *****
 // scanner and then will out put 
 // Formula = In * (1+(Interst/12))
 import java.util.Scanner;
